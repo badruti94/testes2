@@ -2,7 +2,7 @@
 
 ## Provinsi
 ### url
-http://127.0.0.1:8000/provinsi
+``` http://127.0.0.1:8000/provinsi ```
 ### parameter
 q | wajib | untuk memberikan keyword
 
@@ -26,7 +26,7 @@ q | wajib | untuk memberikan keyword
 
 ## Kota
 ### url
-http://127.0.0.1:8000/kota
+``` http://127.0.0.1:8000/kota ```
 ### parameter
 q | wajib | untuk memberikan keyword
 
@@ -38,39 +38,39 @@ q | wajib | untuk memberikan keyword
 **response**
 ```
 	{
-    "keyword": "jakarta",
-    "kategori": "kota",
-    "data": [
-		        {
-		            "province": "DKI Jakarta",
-		            "city": "Jakarta Barat",
-		            "type": "Kota",
-		            "postal_code": "11220"
-		        },
-		        {
-		            "province": "DKI Jakarta",
-		            "city": "Jakarta Pusat",
-		            "type": "Kota",
-		            "postal_code": "10540"
-		        },
-		        {
-		            "province": "DKI Jakarta",
-		            "city": "Jakarta Selatan",
-		            "type": "Kota",
-		            "postal_code": "12230"
-		        },
-		        {
-		            "province": "DKI Jakarta",
-		            "city": "Jakarta Timur",
-		            "type": "Kota",
-		            "postal_code": "13330"
-		        },
-		        {
-		            "province": "DKI Jakarta",
-		            "city": "Jakarta Utara",
-		            "type": "Kota",
-		            "postal_code": "14140"
-		        }
-    		]
+	    "keyword": "jakarta",
+	    "kategori": "kota",
+	    "data": [
+			        {
+			            "province": "DKI Jakarta",
+			            "city": "Jakarta Barat",
+			            "type": "Kota",
+			            "postal_code": "11220"
+			        },
+			        {
+			            "province": "DKI Jakarta",
+			            "city": "Jakarta Pusat",
+			            "type": "Kota",
+			            "postal_code": "10540"
+			        },
+			        {
+			            "province": "DKI Jakarta",
+			            "city": "Jakarta Selatan",
+			            "type": "Kota",
+			            "postal_code": "12230"
+			        },
+			        {
+			            "province": "DKI Jakarta",
+			            "city": "Jakarta Timur",
+			            "type": "Kota",
+			            "postal_code": "13330"
+			        },
+			        {
+			            "province": "DKI Jakarta",
+			            "city": "Jakarta Utara",
+			            "type": "Kota",
+			            "postal_code": "14140"
+			        }
+	    		]
 	}
 ```
